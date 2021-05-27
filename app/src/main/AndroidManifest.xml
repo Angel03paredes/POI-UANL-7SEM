@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.poi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_m"
+        android:label="POI"
+        android:roundIcon="@mipmap/ic_logo_m_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.POI">
+
+        <activity android:name=".Load">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".create_homework" />
+        <activity android:name=".AddGroupActivity" />
+        <activity android:name=".MuestraU" />
+        <activity android:name=".ChatRoom" />
+        <activity android:name=".Home" />
+        <activity android:name=".Registro" />
+        <activity android:name=".EntregarTarea" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

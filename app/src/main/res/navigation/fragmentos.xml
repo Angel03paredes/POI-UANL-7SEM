@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentos"
+    app:startDestination="@id/menu_perfil">
+
+    <fragment
+        android:id="@+id/menu_chat"
+        android:name="com.project.poi.fragment1"
+        android:label="fragment_fragment1"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/menu_perfil"
+        android:name="com.project.poi.fragment2"
+        android:label="fragment_fragment2"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/menu_task"
+        android:name="com.project.poi.Tareas"
+        android:label="fragmentot_tareas"
+        tools:layout="@layout/fragmentot_tareas" />
+    <fragment
+        android:id="@+id/menu_buscar"
+        android:name="com.project.poi.buscar"
+        android:label="fragment_buscar"
+        tools:layout="@layout/fragment_grupo" />
+
+</navigation>

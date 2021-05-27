@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "930471519874",
+    "firebase_url": "https://poi-proyecto-default-rtdb.firebaseio.com",
+    "project_id": "poi-proyecto",
+    "storage_bucket": "poi-proyecto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930471519874:android:3d8f5b1689c8aa786fb69b",
+        "android_client_info": {
+          "package_name": "com.project.poi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930471519874-ddl71pf82gpi1ldod06edo193qeik25v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUp2IsMcw4izm_mmUuA9UgcRYzYoTCi5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930471519874-ddl71pf82gpi1ldod06edo193qeik25v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

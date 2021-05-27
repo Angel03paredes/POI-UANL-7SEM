@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_perfil"
+        android:icon="@drawable/ic_menu_perfil"
+
+        android:title="Perfil" />
+    <item
+        android:id="@+id/menu_task"
+        android:icon="@drawable/ic_menu_tareas"
+        android:title="Tareas" />
+    <item
+        android:id="@+id/menu_buscar"
+        android:icon="@drawable/ic_group_24"
+        android:title="Grupo" />
+    <item
+        android:id="@+id/menu_chat"
+        android:icon="@drawable/ic_menu_chat"
+        android:title="Chat" />
+
+</menu>

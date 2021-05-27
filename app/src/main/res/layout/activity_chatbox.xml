@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/contenedorMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="start"
+        android:background="@drawable/esquinas"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="394dp">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/alfa_slab_one"
+            android:textColor="@color/white"
+            tools:text="Pedro:" />
+
+        <TextView
+            android:id="@+id/tvMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            tools:text="Esto es prueba de mensaje?" />
+
+        <ImageButton
+            android:id="@+id/btn_download"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_download" />
+
+        <TextView
+            android:id="@+id/tvMensajeHora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/allerta"
+            android:textColor="@color/white"
+            tools:text="22:00 hrs" />
+
+
+
+
+
+    </LinearLayout>
+
+    </FrameLayout>
+
